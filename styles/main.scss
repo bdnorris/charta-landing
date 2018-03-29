@@ -1,5 +1,4 @@
 @import 'normalize';
-@import 'fonts';
 
 // HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/
 // This is some further normalization and base styles.
@@ -74,7 +73,7 @@ html {
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Neuzeit Grotesk", Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -84,4 +83,4 @@ body {
 
 }
 
-@import 'maintenance-page';
+@import 'landing';
