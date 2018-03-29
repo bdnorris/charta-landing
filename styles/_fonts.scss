@@ -1,0 +1,47 @@
+@font-face {
+    // font-family: 'neuzeit_groteskblack';
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/neuzeitgro-bla-webfont.eot');
+    src: url('../fonts/neuzeitgro-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neuzeitgro-bla-webfont.woff') format('woff'),
+         url('../fonts/neuzeitgro-bla-webfont.ttf') format('truetype'),
+         url('../fonts/neuzeitgro-bla-webfont.svg#neuzeit_groteskblack') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    // font-family: 'neuzeit_groteskbold';
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/neuzeitgro-bol-webfont.eot');
+    src: url('../fonts/neuzeitgro-bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neuzeitgro-bol-webfont.woff') format('woff'),
+         url('../fonts/neuzeitgro-bol-webfont.ttf') format('truetype'),
+         url('../fonts/neuzeitgro-bol-webfont.svg#neuzeit_groteskbold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    // font-family: 'neuzeit_grotesklight';
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/neuzeitgro-lig-webfont.eot');
+    src: url('../fonts/neuzeitgro-lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neuzeitgro-lig-webfont.woff') format('woff'),
+         url('../fonts/neuzeitgro-lig-webfont.ttf') format('truetype'),
+         url('../fonts/neuzeitgro-lig-webfont.svg#neuzeit_grotesklight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    // font-family: 'neuzeit_groteskregular';
+    font-family: 'Neuzeit Grotesk';
+    src: url('../fonts/neuzeitgro-reg-webfont.eot');
+    src: url('../fonts/neuzeitgro-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/neuzeitgro-reg-webfont.woff') format('woff'),
+         url('../fonts/neuzeitgro-reg-webfont.ttf') format('truetype'),
+         url('../fonts/neuzeitgro-reg-webfont.svg#neuzeit_groteskregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,54 @@
+$bg: #f1f1f1;
+$text: #686a6c;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintenance-container {
+  flex: 1 1 auto;
+  max-width: calc(680px + 4em);
+  padding: 2em;
+  img {
+    width: 100%;
+    // min-width: 280px;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 3em auto;
+  }
+  text-align: center;
+  color: $text;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: $text;
+  @media screen and (min-width: 768px) {
+    font-size: 5em; 
+  }
+}
+
+p {
+  font-size: 1.375em;
+  color: $text;
+  font-weight: 400;
+  a {
+    font-weight: 600;
+    color: $text;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
