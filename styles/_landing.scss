@@ -1,5 +1,8 @@
 $bg: #ffffff;
-$text: #686a6c;
+$text: #9EA7AD;
+$powder: #6B93B1;
+$gray: #6B6D6F;
+$salmon: #F1C0B8;
 
 body {
   width: 100vw;
@@ -10,33 +13,55 @@ body {
   align-items: center;
 }
 
-.maintenance-container {
+.landing-container {
   flex: 1 1 auto;
   max-width: calc(680px + 4em);
   padding: 2em;
   img {
     width: 100%;
     // min-width: 280px;
-    max-width: 300px;
+    max-width: 474px;
     height: auto;
     display: block;
-    margin: 0 auto 3em auto;
+    margin: 0 auto 0.5em auto;
   }
   text-align: center;
   color: $text;
 }
 
+.link-container, form {
+  margin: 2em auto;
+  text-align: left;
+  max-width: 378px;
+}
+
+a {
+  color: $gray;
+  transition: color 200ms ease;
+  font-size: 0.9375em;
+  &:hover {
+    color: $text;
+  }
+}
 
 h1 {
-  font-size: 3em;
+  font-size: 1.1875em;
   font-weight: 300;
   margin: 0;
   line-height: 1;
-  letter-spacing: -2px;
+  letter-spacing: 1.36px;
   color: $text;
-  @media screen and (min-width: 768px) {
-    font-size: 5em; 
-  }
+  text-transform: uppercase;
+  // @media screen and (min-width: 768px) {
+  //   font-size: 5em; 
+  // }
+}
+
+h2 {
+  color: $powder;
+  font-size: 1.0625em;
+  font-weight: 400;
+  margin: 0 0 0.5em 0;
 }
 
 p {
@@ -50,5 +75,43 @@ p {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+
+form {
+  clear: both;
+}
+
+.input-group {
+  margin-bottom: 1em;
+}
+label {
+  display: block;
+  margin-bottom: 0.2em;
+}
+input, textarea {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1em;
+  color: $text;
+  padding: 0.333em;
+  border: 1px solid #cccccc;
+}
+
+input[type="submit"] {
+  width: 30%;
+  color: white;
+  background-color: $salmon;
+  float: right;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5em 0.5em;
+  letter-spacing: 0.88px;
+  transition: background-color 200ms ease;
+  &:hover {
+    background-color: darken($salmon, 10%);
   }
 }
